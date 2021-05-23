@@ -1,0 +1,719 @@
+
+
+/* Header start */
+header{
+    background: lightgrey; height: 100px; font-size: 15px;
+}
+.logo{
+    margin-left: 170px; width: 100px;  height: 80px; margin-top: 15px;
+}
+.navhead{  margin-left: 50px; margin-top: -10px;
+}
+
+.mr-auto{ margin-top: 30px; margin-left: -20px;
+}
+
+.headbutton{ display: inline-block; margin-top: 30px;
+}   
+.but{
+    margin-left: 30px;
+}
+
+footer{
+    background: url("/assets/Images/footimage.png");
+    height:800px;
+    color:white;
+    text-align: center;
+    width: 100%;
+    color:white;
+}
+.foot{
+    margin-top: 100px;
+}
+.foot-btn{
+    margin-left: -100px;
+}
+.foot-btn1{
+    margin-left: -200px;
+}
+
+
+.foot-btn2{ margin-left: 130px; position: absolute; margin-top: -45px;
+}
+
+
+.footicon img:nth-child(1){
+    width:180px;
+    height: 170px;
+}
+.hozline{
+    border-top:3px solid red;
+    width: 100%;
+}
+.footline{
+    border-top: 3px solid yellow;
+    width:30px;
+}
+.footh{  text-align: start;  list-style-type: none; margin-top: 35px; font-size: 1pc;
+}
+.line{  border-top: 3px solid red; width: 80px; margin-left: 51%;
+ margin-top: -25px;
+    
+  }
+
+footer h6:nth-child(1){
+    font-size: 5px;
+    margin-top: 50px;
+    text-align: start;
+    list-style-type: none;
+}
+ol>li::before{
+    content: "-";
+    margin-left: -40px;
+}
+.form{
+    width: 10px;
+    color:white;
+}
+
+/* HOME */
+
+.homeimg{
+    background: url("/assets/Images/building.jpg"); 
+    background-size: cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height: 700px;
+}
+.hometxt{
+    color: white;
+    line-height: 30px;
+    padding-top :20%;
+    
+}
+
+.hometxt p:nth-child(1) {
+  word-spacing: 5px;
+  font-size: 40px;  
+} 
+.hometxt p:nth-child(2){
+
+    font-size: 60px;
+}
+.homecard{
+    width:50%; 
+    height:80px;
+    margin-left: -13%;
+   
+    color: black;
+}
+.search-heading{
+    color:gray;
+    font-size: 1em;
+    margin-top: 2%;
+}
+.homeselect{
+    margin-left: 16%;
+    border:none !important;
+    margin-top: -10%;
+}
+.homeselect1{
+    margin-left: 27%;
+    border:none !important;
+    margin-top: -10%;
+}
+.homeselect2{
+    margin-left: 22%;
+    border:none !important;
+    margin-top: -10%;
+}
+
+.homebtn{
+    width:150px;
+    height:100px;
+    /* position: absolute; */
+    margin-left: 100%;
+    margin-top: -75px;
+   
+}
+.searchbtn{
+    width: 15%;
+    height: 80px;
+    margin-left: -39%;
+    margin-top: -5px;
+    position: absolute
+}
+.table1 tr td{
+    color:grey;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 0px;
+}
+.content{
+    background-color: rgb(219,200,200);
+    width: 100%;
+    height: 800px;
+    
+}
+.hometxt1{
+    padding-top: 25%;
+}
+.hometxt1 p h3{
+    line-height: 20px;
+}
+.secline{
+   border-top: 5px solid red;
+}
+
+.footicon img{
+    width: 30px;
+    padding: 5px;
+}
+.card1{
+    margin-top: 5%;
+    margin-left: 60%;
+    width:30%; 
+    height:60%;
+}
+.card2{
+    margin-top: 50px;
+    margin-left: 60%;
+    width:30%; 
+    height:60%;
+}
+.card3{
+    margin-top: -85%;
+    margin-left: 10%;
+    width:30%; 
+    height:60%;
+}
+.cardimg {
+   height: 250px;
+   padding: 7%;
+   
+
+}
+.cardbdy{
+    margin-left: 27%;
+    margin-top: -35px;
+    line-height: 20px;
+    font-size: 5px;
+}
+.cardline{
+    width:15%;
+    margin-left: 10%;
+    margin-top: 6px;
+    color: red;
+    border: 1px solid;
+}
+.cardtext{
+    margin-left: -35%;
+    text-align: justify;
+    margin-top: -12%;
+}
+.slider{
+    margin-top: 200px;
+}
+
+.slide{
+    display : flex;
+    }
+
+.slide-img{
+        width: 200px;
+        height: 90px;
+        
+    }
+   .box{
+    
+       width:300px;
+       height: 280px;
+       margin-bottom: 10PX;
+       box-shadow: 0px 5px 3px 1px #888888;
+       background-color: white;
+   }  
+       
+.box-img img{
+       width: 300px;
+       height: 200px;
+   }
+   .rupees{
+       background-color: yellow;
+       display: inline-block;
+       width: 80px;
+       height: 30px;
+       margin-left: 210px;
+       padding: 5px;
+       margin-top: -20px;
+       position: absolute;
+   }
+   .rent{
+    background-color: yellow;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    margin-top:-200px;
+    margin-left: 0px;
+
+   } 
+   .testimonial{
+       width:100%;
+       height:500px;
+       background-color: sandybrown;
+   }
+
+   .clienttext{
+       margin-top: 30%;
+       margin-left: 10%;
+   }
+   .client{
+       margin-top: 100px;
+       margin-left: 50px;
+       width:14em;
+       height:255px;
+   }
+   .team-box{
+    width:200px;
+    height: 220px;
+    background-color: white;
+    border: 1px ;
+    box-shadow: 3px 10px 15px #888888 ;
+   }
+  .client-text{
+      text-align: center;
+      margin-top: -60px;
+  }
+  .client-img1{
+      border-radius: 50%;
+      height: 100px;
+      width: 70px;
+             
+  }
+  .client-img{
+      padding: 50px;
+      margin-top: -30px;
+  }
+
+  .advertise{
+      background-color: lightblue;
+      width:100%;
+      margin-left: 20px;
+      height: 650px;
+  }
+  .adv{
+      padding-top: 30px;
+      padding-left: 20px;
+  }
+
+  .item{
+
+      width:"100%";
+      height: 270px;
+      box-shadow: 0px 3px 3px 1px  grey;
+      margin-top: 100px;
+
+  }
+  .content1{
+    width:100%; height:270px; box-shadow: 0px 1px 0px 1px;
+  }
+ .contentimg{
+    height:80%;
+    max-width:80%;
+ }
+ .contenttxt{
+    margin-left:20px; line-height:23px;
+ }
+ .contentleft{
+     margin-left: -20%;
+     margin-bottom: 5%;
+ }
+
+  .price{
+      margin-top: 10px;
+      margin-left: -50%;
+  }
+  .price b{
+      color: blue;
+      font-size: 35px;
+  }
+  .price p{
+      font-size: 5px;
+      line-height: 10px;
+    }
+
+ 
+ 
+  .rightborder{
+      border-right: 10px solid black;
+      height: 35px;
+      margin-top: -70px;
+      margin-right: -10px;
+}
+
+
+
+ .contentgroup{
+     font-size: 5px;
+     margin-top: 10px;
+     margin-right: 20px;
+     text-align: center;
+ }
+ .contentbg{
+     background-color: skyblue;
+     background: skyblue;
+ }
+
+ .slidecard1{
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+ .OwlCarousel{
+     display: flex;
+ }
+.slideimg{
+   border-radius: 50%;
+    width:120px;
+    height:120px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.slidecard2{
+    margin-top: 20px;
+    margin-left: -30px;
+    line-height: 25px;
+}
+.slidebtn{
+    height:45px; 
+    width:200px;
+    margin-top:-10px; 
+    margin-left:30px;
+}
+
+.sliderlist1{
+    list-style-type: none;
+    line-height: 40px;
+    margin-left: -40px;   
+}
+.sliderlist2{
+    list-style-type: none;
+    line-height: 40px;
+   
+}
+.sliderlist3{
+    list-style-type: none;
+    line-height: 40px;
+    
+}
+.sliderimg  {
+      height:200px;
+      margin-top: 15px;
+      
+}
+
+.Booktour{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.booktitle{
+    word-spacing: 10px;
+}
+.booktext{
+    line-height: 70px;
+}
+.booktext1{
+    margin-top: -30px;
+    font-size: 25px;
+}
+.booktext2{
+    margin-top: -20px;
+}
+
+.loginbg{
+    background: url("/assets/Images/building.jpg"); 
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 800px;
+   
+}
+.logincard{
+    width: 500px; 
+    height:500px ;
+    margin-left:28%; 
+    margin-top:10%; 
+}
+
+.loginline{
+    border-top: 3px solid skyblue;
+    width:100%;
+    margin-top: -2px;
+
+}
+.loginline1{
+    border-top:3px solid skyblue;
+    width:30%;
+}
+.loginline2{
+    border-top:3px solid skyblue;
+    width:40%;
+    margin-top: -33px;
+    margin-left: 270px;
+}
+.loginusing{
+    margin-top: -40px;
+    margin-left: 140px;
+}
+.loginsite{
+    margin-top: 40px;
+    margin-left: 60px;
+    
+}
+.loginsite ul {
+    list-style-type: none;
+    display: flex;
+}
+.loginsite ul li {
+    padding: 20px;
+    cursor: pointer;
+}
+.loginfooter{
+    background-color: grey;
+    height: 120px;
+    margin-top: -25px;
+    color: white;
+    padding-left: 120px;
+    padding-top:40px;
+    
+
+}
+.loginfooter span{
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:766px){
+    .logo{
+        margin-left: 10px;
+    }
+    .mobile{
+        display: none;
+    }
+    .navmobile
+    {
+        margin-top: 30px;
+        margin-left: 70%;
+
+    }
+    #basic-navbar-nav{
+        margin-left: -90%;
+        
+    }
+    header{
+        -webkit-transition: height .35s ease-in-out;
+        transition: height .35s ease-in-out;
+        
+    }
+    header:hover{
+        height: 470px; 
+     }
+
+}
+@media(min-width:512px) and (max-width:990px){
+     
+   .logo{
+       margin-left: 15%;
+   }
+
+
+
+}
+
+
+
+/* Footer */
+@media(min-width:767px){
+   .desktop{
+       display:none;
+   }
+}
+ 
+ 
+ @media(max-width:991px){
+    
+       .desktop .foot{
+            margin-top: 30px;
+            position: absolute;
+            font-size: 10px;
+            
+        }
+        .subhead{
+            font-size: 5px;
+     }
+        .desktop .foot-btn{
+            margin-left: 50%;
+        }
+        .desktop .line{
+            border: 3px solid red;
+            width: 30px;
+            height: 5px;
+            margin-left: -10px;
+            margin-top: -30px;
+        }
+        .desktop .foot-btn1{
+            margin-left: -400px;
+        }
+        .desktop .foot-btn2{
+            margin-left: -80px;
+            margin-top:-43px;
+        }
+        .desktop .hozline{
+          border: 2px solid red;
+          width:90%;
+          margin-left: 20px;
+          margin-top: 50px;
+        }
+        .desktop .hozline1{
+            border: 2px solid red;
+            width:90%;
+            margin-left: 20px;
+            margin-top: 30px;
+          }
+        .desktop .footlink{
+            margin-top: -50px;
+            margin-left: 30px;
+        }
+        .footitems{
+            text-align: start;
+            list-style-type: none;
+            font-size: 1px;
+            margin-left: -50px;
+            line-height: 40px;
+        }
+    }
+ 
+/* HOME    */
+ 
+
+@media(min-width:766px) and (max-width:990px){
+       .homeimg{
+           background-size: cover;
+           height: 600px;
+       }
+       .hometxt{
+           margin-left: 25%;
+       }
+}
+
+
+@media(min-width:320px) and (max-width:511px){
+   .homeimg{
+       background-image: none;
+       background-color: skyblue;
+       max-width: 100%;
+       height:500px;
+   }
+   .hometxt p:nth-child(1) {
+    word-spacing: 5px;
+    font-size: 10px;  
+  }
+  .hometxt p:nth-child(2) {
+    word-spacing: 5px;
+    font-size: 30px;
+    line-height: 0px;  
+  }
+   .homecard{
+   width: 90%;
+  height: 89px;
+  margin-left: 0%;
+  color: black
+}
+    .searchbtn{
+     width: 50%; 
+     height: 50px;
+     margin-left: -90%;
+     margin-top: 25%;
+    position: absolute
+}
+    .card1{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 30%
+    }
+    .card2{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 30%
+    }
+    .card3{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 30%
+    }
+     .cardimg{
+         height: 200px;
+         padding: 2px;
+     }
+     .cardbdy{
+        margin-left: 20%;
+        margin-top: -38px;
+        line-height:20px;
+        font-size: 5px;
+        
+    }
+    .cardline{
+        width:10%;
+        margin-left: 5%;
+        margin-top: 7%;
+        color: red;
+        border: 1px solid;
+    }
+    .cardtext{
+        margin-left: -20%;
+        margin-top: -7%;
+        text-align: justify;
+
+    }
+    .hometxt1{
+        margin-top: -10%;
+        padding: 5%;
+    } 
+    .box{
+        margin: 55px;
+    }
+    .content{
+        height: 500px;
+    }
+    .contentimg{
+        height:50%;
+        max-width: 50%;
+    }
+    .price b {
+        margin-left: -38%;
+    }
+    .price p{
+        margin-left: -17%;
+    }
+    .contentleft{
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+    .contentgroup{
+    margin-top: -18px;
+    margin-right: 6%;
+    display: flex;
+    }
+}
